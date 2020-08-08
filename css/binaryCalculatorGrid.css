@@ -1,0 +1,75 @@
+body {
+	width: 33%;
+}
+
+#res {
+	background-color: lightgray;
+	border: solid;
+	height: 48px;
+	font-size: 20px;
+	grid-column: 1/-1;
+	grid-row: 1/2;
+}
+
+#btn0,
+#btn1 {
+	background-color: lightgreen;
+	color: brown;
+}
+
+#btn0 {
+	grid-column: 1/1;
+	grid-row: 3/3;
+}
+#btn1 {
+	grid-column: 2/2;
+	grid-row: 3/3;
+}
+
+#btnClr,
+#btnEql {
+	background-color: darkgreen;
+	color: white;
+}
+#btnClr {
+	grid-column: 3/3;
+	grid-row: 3/3;
+}
+#btnEql {
+	grid-column: 4/4;
+	grid-row: 3/3;
+}
+
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+	background-color: black;
+	color: red;
+}
+#btnSum {
+	grid-column: 1/1;
+	grid-row: 4/4;
+}
+#btnSub {
+	grid-column: 2/2;
+	grid-row: 4/4;
+}
+#btnMul {
+	grid-column: 3/3;
+	grid-row: 4/4;
+}
+#btnDiv {
+	grid-column: 4/4;
+	grid-row: 4/4;
+}
+
+#btns button {
+	width: 25%;
+	height: 36px;
+	display: grid;
+	font-size: 18;
+	margin: 0;
+	float: left;
+	width: 100%;
+}
