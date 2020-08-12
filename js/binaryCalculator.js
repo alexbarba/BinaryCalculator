@@ -126,7 +126,6 @@ btnDiv.onclick = () => {
 	updateRes(res.value + "/");
 };
 
-btns.appendChild(res);
 btns.appendChild(btn0);
 btns.appendChild(btn1);
 btns.appendChild(btnClr);
@@ -136,4 +135,6 @@ btns.appendChild(btnSub);
 btns.appendChild(btnMul);
 btns.appendChild(btnDiv);
 
+
+document.body.appendChild(res);
 document.body.appendChild(btns);

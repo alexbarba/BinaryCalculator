@@ -1,38 +1,80 @@
 body {
 	width: 33%;
+	line-height: 34px;
+	color: gray;
+	
+}			
+#btns{
+	display: flex;
+	flex-wrap: wrap;
+}
+button{
+	background-color: transparent;
+	height: 36px;
+	font-size: 18px;
+	margin: 2px;
+	float: left;
+	border-radius: 4px;
 }
 
 #res {
-	background-color: lightgray;
-	border: solid;
+	border: 1px solid #ebebeb;
+	border-radius: 8px;
+	margin: auto;
+	padding: 10px 14px 0px 10px;
+	box-sizing: border-box;
+	color:#222;
 	height: 48px;
 	font-size: 20px;
 }
 
 #btn0,
 #btn1 {
-	background-color: lightgreen;
-	color: brown;
+	background: #f1f3f4;
+    color: #202124;
+    border: 1px solid #f1f3f4;
+	flex: 1 0 21%; 
 }
 
-#btnClr,
+#btn0:hover,
+#btn1:hover {
+	background: #e8eaeb;
+	border-color: #e8eaeb;
+}
+
 #btnEql {
-	background-color: darkgreen;
-	color: white;
+	background: #4285f4;
+	color: #fff;
+	border: 1px solid #4285f4;
+	flex: 1 0 21%; 
+}
+
+#btnEql:hover{
+	background: #4d8bf1;
+	border-color: #4d8bf1;
+}
+#btnClr{
+	flex: 1 0 21%; 
+	background-color: #dfe1e5;
+	color: #202124;
+	border: 1px solid #dfe1e5;
 }
 
 #btnSum,
 #btnSub,
 #btnMul,
 #btnDiv {
-	background-color: black;
-	color: red;
+	background-color: #dfe1e5;
+	color: #202124;
+	border: 1px solid #dfe1e5;
+	flex: 2 0 21%; 
 }
 
-#btns > button {
-	width: 25%;
-	height: 36px;
-	font-size: 18px;
-	margin: 0px;
-	float: left;
+#btnClr:hover,
+#btnSum:hover,
+#btnSub:hover,
+#btnMul:hover,
+#btnDiv:hover {
+	background: #d7d9dd;
+	border-color: #d7d9dd;
 }
