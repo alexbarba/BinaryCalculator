@@ -53,6 +53,7 @@ button{
 	background: #4d8bf1;
 	border-color: #4d8bf1;
 }
+
 #btnClr{
 	flex: 1 0 21%; 
 	background-color: #dfe1e5;
@@ -77,4 +78,13 @@ button{
 #btnDiv:hover {
 	background: #d7d9dd;
 	border-color: #d7d9dd;
+	text-decoration: none;
+}
+
+#btns > button:active {
+	border-color: black;							
+}
+
+button:focus {
+	outline: none;
 }
